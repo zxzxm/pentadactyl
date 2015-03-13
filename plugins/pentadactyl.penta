@@ -47,7 +47,7 @@ var mDactyl = {
                 }
             }
         };
-        persist.saveURI(obj_URI, null, null, null, "", targetFile, null);
+        persist.saveURI(obj_URI, null, null, null, null,"", targetFile, null);
     },
     replaceAddonsFile: function(xpiFile) {
         // 如果存在则替换 addons.jsm
